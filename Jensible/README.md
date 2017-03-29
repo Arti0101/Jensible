@@ -14,7 +14,7 @@ For weekly releases check out [`jenkinsci/jenkins`](https://hub.docker.com/r/jen
 # Usage
 
 ```
-docker run -p 8080:8080 -p 50000:50000 jenkins
+docker run -p 8080:8080 -p 50000:50000 jensible &
 ```
 
 NOTE: read below the _build executors_ part for the role of the `50000` port mapping.
